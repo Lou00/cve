@@ -1,0 +1,8 @@
+version: '2'
+services:
+  web:
+    image: 'tp5_unserialize_pop'
+    container_name: 'tp5_unserialize_pop'
+    build: .
+    ports:
+      - 8002:80
